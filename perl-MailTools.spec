@@ -1,6 +1,6 @@
 %define	real_name MailTools
 %define	name	perl-%real_name
-%define	version	1.76
+%define	version	1.77
 %define	release	%mkrel 1
 
 Summary:	A set of perl modules related to mail applications
