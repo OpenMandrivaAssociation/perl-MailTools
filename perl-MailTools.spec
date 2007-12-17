@@ -12,7 +12,6 @@ Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%module/
 Source:     http://www.cpan.org/modules/by-module/Mail/%{module}-%{version}.tar.gz
 BuildArch:	noarch
-Buildroot:	%{_tmppath}/%{name}-%{version}
 
 %description
 This is MailTools, a set of perl modules related to mail applications.
