@@ -1,7 +1,7 @@
 %define	module MailTools
 %define	name	perl-%module
-%define	version	2.03
-%define	release	%mkrel 2
+%define	version	2.04
+%define	release	%mkrel 1
 
 Summary:	A set of perl modules related to mail applications
 Name:		%{name}
