@@ -1,24 +1,24 @@
-%define	module MailTools
-%define	name	perl-%module
-%define	version	2.04
-%define	release	%mkrel 2
+%define	upstream_name    MailTools
+%define	upstream_version 2.04
+
+Name:       perl-%{upstream_name}
+Version:    %perl_convert_version %{upstream_version}
+Release:    %mkrel 1
 
 Summary:	A set of perl modules related to mail applications
-Name:		%{name}
-Version:	%{version}
-Release:	%{release}
-License:	GPL or Artistic
+License:	GPL+ or Artistic
 Group:		Development/Perl
-URL:		http://search.cpan.org/dist/%module/
-Source:     http://www.cpan.org/modules/by-module/Mail/%{module}-%{version}.tar.gz
+Url:		http://search.cpan.org/dist/%{upstream_name}/
+Source0:    http://www.cpan.org/modules/by-module/Mail/%{upstream_name}-%{upstream_version}.tar.gz
+
 BuildArch:	noarch
-Buildroot:	%{_tmppath}/%{name}-%{version}
+Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}
 
 %description
 This is MailTools, a set of perl modules related to mail applications.
 
 %prep
-%setup -q -n %{module}-%{version}
+%setup -q -n %{upstream_name}-%{upstream_version}
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
@@ -39,4 +39,3 @@ rm -rf %{buildroot}
 %doc README ChangeLog
 %{perl_vendorlib}/Mail
 %{_mandir}/*/*
-
