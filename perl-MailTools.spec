@@ -1,9 +1,9 @@
 %define	upstream_name    MailTools
-%define upstream_version 2.07
+%define upstream_version 2.08
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:	A set of perl modules related to mail applications
 License:	GPL+ or Artistic
