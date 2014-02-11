@@ -1,5 +1,5 @@
 %define	modname	MailTools
-%define modver 2.12
+%define modver 2.13
 
 Summary:	A set of perl modules related to mail applications
 Name:		perl-%{modname}
@@ -32,5 +32,6 @@ This is MailTools, a set of perl modules related to mail applications.
 %doc README ChangeLog
 %{perl_vendorlib}/Mail
 %{_mandir}/man3/*
+
 
 
