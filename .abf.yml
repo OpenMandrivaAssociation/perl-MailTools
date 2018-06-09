@@ -1,6 +1,2 @@
-removed_sources:
-  MailTools-2.08.tar.gz: dca3a781273ec37f3aacb729c559ba1fbb41bc30
-  MailTools-2.12.tar.gz: c2928c8fb804411aa471eaf7fe190a3019839f0c
-  MailTools-2.13.tar.gz: 48994a6762dcefece6c39e5df327b755d28bd21b
 sources:
-  MailTools-2.14.tar.gz: 64dc759f602fb13343b0ed39574eb01a7729b022
+  MailTools-2.20.tar.gz: 92c514b9e27180e33d9ea7993270d3ec49230d73
